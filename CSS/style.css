@@ -317,6 +317,8 @@ margin-right: 8px;
   font-weight: 600;
 }
 .offer_grid--lastlink{
+height: 160px;
+padding-bottom: 95px;
   display: flex;
   align-items: center; /* выравнивнивание по центру */
   justify-content: right; /* выравнивание по оси */
@@ -329,4 +331,60 @@ margin-right: 8px;
 .process__text--button{
   width: 177px;
   align-content: center;
+}
+
+.process{
+  padding-top: 102px;
+  display: flex;
+  margin-left: 131px;
+}
+
+.process__text--cap{
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 131%;
+  letter-spacing: -0.03em;
+  color: black;
+}
+
+.process__text--main-text{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  color: rgb(103, 101, 101);
+}
+
+.rd{
+  text-align: center;
+  display: block;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: rgba(117, 30, 199, 0.625);
+}
+
+.radius1, .radius2,  .radius3{
+  padding: 25%;
+font-weight: 600;
+color: white;
+font-size: 30px;
+}
+
+
+
+.linepunktire{
+
+  border: dashed white;
+background-color: black;
+height: 100px;
+width: 1px;
+margin: auto;
+}
+
+.process__step-1{
+  display: flex;
+}
+
+.process__step{
+  display: block;
 }
